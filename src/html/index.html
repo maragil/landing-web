@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ejercicio evaluación 1</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -17,19 +19,25 @@
 
     <header class="header">
 
-      <nav class="menu">
-        <img  src="assets/images/ico-menu.svg" alt="Menú de navegación"><a href="https://adalab.es"></a>
+      <nav>
+        <a href="https://adalab.es">
+        <img class="header_menu" src="./assets/images/ico-menu.svg" alt="Menú de navegación"></a>
       </nav>
 
-      <img  class="img-hero"
-            src="assets/images/cover.jpeg"
-            alt="Imagen de un corredor">
+      <section class="header_container">
 
-      <section>
-        <h1>hasta un 50% de descuento</h1>
-        <p>Ya están aquí las ofertas de fin de temporada</p>
-        <img src="assets/images/ico-scroll-down.svg" alt="Enlace que redirige a la sección de novedades">
-        <a href=""></a>
+        <h1 class="header_title">hasta un 50% de descuento</h1>
+
+        <p class="header_text">Ya están aquí las ofertas de fin de temporada</p>
+
+        <a href="#section-2">
+
+          <div>
+            <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="Enlace que redirige a la sección de novedades">
+          </div>
+
+        </a>
+
       </section>
 
       </header>
@@ -67,7 +75,7 @@
 
                 <button>Empezar ahora</button>
 
-                <img src="assets/images/ico-arrow.svg" alt="Enlace que redirige al inicio de la página">
+                <img src="./assets/images/ico-arrow.svg" alt="Enlace que redirige al inicio de la página">
 
           </section>
       </main>

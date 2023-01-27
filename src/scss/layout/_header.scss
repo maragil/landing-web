@@ -1,3 +1,52 @@
-.img-hero{
+:root{
+    --text-title: 'Roboto Slab', serif;
+    --text-p: 'Roboto', sans-serif;
+    --brand-color: #f26002;
+}
+
+.header{
+    width: 100vw;
     height: 100vh;
+    background-image: url("../images/cover.jpeg");
+    background-size: cover;
+    display: flex;
+
+    &_menu{
+        width: 40px;
+        height: 38px;
+        padding: 9px;
+        background-color: (var(--brand-color));
+    }
+
+    &_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(250px);
+        text-align: center;
+}
+        &_title{
+            font-family: var(--text-title);
+            text-transform: uppercase;
+            font-size: 2.4rem;
+            color: white;
+            line-height: 3.6rem;
+        }
+
+        &_text{
+            font-family: var(--text-p);
+            color: white;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            padding: 0 1rem 1rem;
+        }
+    }
+
+.scroll-down{
+    width: 43px;
+    height: 40px;
+    background-color: white;
+    padding: 9px;
+    border-radius: 25px;
 }
