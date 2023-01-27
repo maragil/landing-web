@@ -1,0 +1,67 @@
+:root{
+    --text-title: 'Roboto Slab', serif;
+    --text-p: 'Roboto', sans-serif;
+    --brand-color: #f26002;
+    --grey-brown: #4a4a4a;
+}
+
+.section2{
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 40px;
+    padding: 30px 50px 40px 50px;
+
+    &_title{
+        font-family: var(--text-title);
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+
+        &_subtitle{
+            font-family: var(--text-title);
+            font-size: 1.125rem;
+        }
+
+        &_text{
+            font-family: var(--text-p);
+            font-size: 1.125rem;
+            line-height: 1.67;
+        }
+
+    &_buttom{
+        width: 200px;
+        height: 50px;
+        background-color: var(--brand-color);
+        border: solid 3px var(--brand-color);
+        font-family: var(--text-p);
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 2.25;
+        border-radius: 25px;
+    }
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &_buttom{
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        border-radius: 25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    &_img{
+        width: 25px;
+    }
+}
