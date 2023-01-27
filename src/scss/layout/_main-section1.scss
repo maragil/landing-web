@@ -14,34 +14,40 @@
     &_subtitle{
     color: var(--brand-color);
     font-family: var(--text-p);
-    font-size: 1.063rem;
+    font-size: 0.875rem;
+    padding: 0 100px 0 13px;
     }
 
     &_title{
         font-family: var(--text-title);
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-transform: capitalize;
+        padding: 0 12px 0 13px;
     }
 
         &_text{
             font-family: var(--text-p);
             color: var(--grey-brown);
-            font-size: 1.4rem;
-            line-height: 31px;
+            font-size: 1.125rem;
+            line-height: 1.67;
+            padding: 0 12px 0 16px;
         }
     
     &_buttom{
-        width: 160px;
-        height: 45px;
+        width: 150px;
+        height: 50px;
         background-color: white;
-        border-radius: 22.5px;
+        border-radius: 35.5px;
         border: solid var(--brand-color);
         color: var(--brand-color);
         font-family: var(--text-p);
         font-size: 1.25rem;
-        font-weight: bold;
-        margin-top: 50px;
-        margin-bottom: 70px;
+        font-weight: 500;
+        margin-top: 71px;
+        margin-bottom: 41px;
+        &:hover{
+            
+        }
         }
 }
 

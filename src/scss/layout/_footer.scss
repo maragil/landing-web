@@ -1,0 +1,30 @@
+:root{
+    --text-title: 'Roboto Slab', serif;
+    --text-p: 'Roboto', sans-serif;
+    --brand-color: #f26002;
+    --grey-brown: #4a4a4a;
+}
+.footer{
+    // width: 100vw;
+    // height: 465px;
+    background-color: var(--grey-brown);
+    font-family: var(--text-p);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 65px;
+    line-height: 1.80;
+
+    &_links{
+        font-size: 1rem;
+        line-height: 1.88;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.copy{
+    padding-bottom: 36px;
+}
