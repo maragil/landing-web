@@ -9,7 +9,6 @@
     // height: 465px;
     background-color: var(--grey-brown);
     font-family: var(--text-p);
-    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,15 +16,16 @@
     padding-top: 65px;
     line-height: 1.80;
 
-    &_links{
-        font-size: 1rem;
-        line-height: 1.88;
-        text-transform: uppercase;
-        color: white;
-        text-decoration: none;
+        &_links{
+            font-size: 1rem;
+            line-height: 1.88;
+            text-transform: uppercase;
+            color: white;
     }
 }
 
 .copy{
     padding-bottom: 36px;
+    color: white;
+    font-size: 0.875rem;
 }
