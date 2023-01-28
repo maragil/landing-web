@@ -10,6 +10,7 @@
     background-image: url("../images/cover.jpeg");
     background-size: cover;
     display: flex;
+    justify-content: center;
 
     &_menu{
         width: 50px;
@@ -21,12 +22,12 @@
         z-index: 1;
     }
 
-    &_container{
+    &_hero{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: translateY(123px);
+        transform: translateY(208px);
         text-align: center;
         padding-right: 40px;
 }
@@ -53,3 +54,19 @@
     padding: 9px;
     border-radius: 25px;
 }
+
+@media (min-width:768px){
+
+    .header_hero{
+        padding-bottom: 45px;
+    }
+
+    .header_title {
+        font-size: 4.688rem;
+    }
+
+    .header_text {
+        font-size: 1.5rem;
+    }
+}
+

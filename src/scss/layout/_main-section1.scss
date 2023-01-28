@@ -10,12 +10,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: 23px 45px 158px;
     padding: 34px 12px 2px 13px;
-
+    
+    
     &_subtitle{
     color: var(--brand-color);
     font-family: var(--text-p);
     font-size: 0.875rem;
-    padding: 0 100px 0 13px;
+    padding: 0 0 0 13px;
     }
 
     &_title{
@@ -49,3 +50,24 @@
         }
 }
 
+@media (min-width:768px){
+
+    .section1{
+        gap: 18px;
+    }
+    .section1_subtitle{
+        font-size: 1rem;
+        line-height: 1.88;
+        padding-left: 37px;
+    }
+    .section1_title{
+        font-size: 2rem;
+        padding-left: 37px;
+    }
+    .section1_text{
+        font-size: 1.25rem;
+        padding-left: 37px;
+    }
+    .section1_buttom{
+    }
+}
