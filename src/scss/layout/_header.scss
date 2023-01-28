@@ -36,7 +36,7 @@
             text-transform: uppercase;
             font-size: 1.875em;
             color: white;
-            line-height: 1.67;
+            line-height: 50px;
         }
 
         &_text{
@@ -63,10 +63,15 @@
 
     .header_title {
         font-size: 4.688rem;
+        line-height: 100px;
     }
 
     .header_text {
         font-size: 1.5rem;
+    }
+    .scroll-down{
+        width: 43px;
+        height: 45px;
     }
 }
 

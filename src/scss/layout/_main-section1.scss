@@ -10,8 +10,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 23px 45px 158px;
     padding: 34px 12px 2px 13px;
-    
-    
+
     &_subtitle{
     color: var(--brand-color);
     font-family: var(--text-p);
@@ -35,7 +34,7 @@
         }
 
     &_buttom{
-        width: 150px;
+        width: 160px;
         height: 50px;
         background-color: white;
         border-radius: 35.5px;
@@ -57,7 +56,7 @@
     }
     .section1_subtitle{
         font-size: 1rem;
-        line-height: 1.88;
+        // line-height: 1.88;
         padding-left: 37px;
     }
     .section1_title{
@@ -69,5 +68,6 @@
         padding-left: 37px;
     }
     .section1_buttom{
+        margin: 0 0 51px 39px;
     }
 }
