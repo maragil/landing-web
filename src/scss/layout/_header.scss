@@ -2,6 +2,7 @@
     --text-title: 'Roboto Slab', serif;
     --text-p: 'Roboto', sans-serif;
     --brand-color: #f26002;
+    --white-color: white;
 }
 
 .header{
@@ -35,13 +36,13 @@
             font-family: var(--text-title);
             text-transform: uppercase;
             font-size: 1.875em;
-            color: white;
+            color: var(--white-color);
             line-height: 50px;
         }
 
         &_text{
             font-family: var(--text-p);
-            color: white;
+            color: var(--white-color);
             font-size: 1rem;
             padding: 0 16px 16px;
         }
@@ -50,7 +51,7 @@
 .scroll-down{
     width: 43px;
     height: 40px;
-    background-color: white;
+    background-color: var(--white-color);
     padding: 9px;
     border-radius: 25px;
 }

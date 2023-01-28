@@ -3,6 +3,7 @@
     --text-p: 'Roboto', sans-serif;
     --brand-color: #f26002;
     --grey-brown: #4a4a4a;
+    --white-color: white;
 }
 
 .section1{
@@ -36,7 +37,7 @@
     &_buttom{
         width: 160px;
         height: 50px;
-        background-color: white;
+        background-color: var(--white-color);
         border-radius: 35.5px;
         border: solid var(--brand-color);
         color: var(--brand-color);

@@ -3,10 +3,12 @@
     --text-p: 'Roboto', sans-serif;
     --brand-color: #f26002;
     --grey-brown: #4a4a4a;
+    --ligth-grey: #f2f2f2;
+    --white-color: white;
 }
 
 .section2{
-    background-color: #f2f2f2;
+    background-color: var(--ligth-grey);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -37,7 +39,7 @@
         background-color: var(--brand-color);
         border: solid 3px var(--brand-color);
         font-family: var(--text-p);
-        color: white;
+        color: var(--white-color);
         font-size: 1.25rem;
         font-weight: 500;
         line-height: 2.25;
@@ -55,7 +57,7 @@
     &_buttom{
         width: 45px;
         height: 45px;
-        background-color: white;
+        background-color: var(--white-color);
         border-radius: 25px;
         position: absolute;
         display: flex;
@@ -65,4 +67,44 @@
     &_img{
         width: 25px;
     }
+}
+
+
+@media (min-width:768px){
+
+    .section2{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 100px;
+        gap: 10px;
+    }
+
+    .section2_title{
+        font-size: 1.75rem;
+        line-height: 45px;
+        grid-column: span 3;
+    }
+    .section2_subtitle{
+        font-size: 1.5rem;
+    }
+    .section2_text{
+        font-size: 1.25rem;.section2{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        }
+        .section2_title{
+        font-size: 1.75rem;
+        line-height: 45px;
+        grid-column: span 3;
+        }
+        .section2_subtitle{
+            font-size: 1.5rem;
+        }
+        .section2_text{
+            font-size: 1.25rem;
+        }
+    }
+
+        .section2_buttom{
+            grid-column: span 3;
+        }
 }
