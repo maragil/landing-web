@@ -3,10 +3,9 @@
     --text-p: 'Roboto', sans-serif;
     --brand-color: #f26002;
     --grey-brown: #4a4a4a;
+    --white-color: white;
 }
 .footer{
-    // width: 100vw;
-    // height: 465px;
     background-color: var(--grey-brown);
     font-family: var(--text-p);
     text-align: center;
@@ -16,11 +15,16 @@
     padding-top: 65px;
     line-height: 1.80;
 
-        &_links{
+        &_list{
             font-size: 1rem;
             line-height: 1.88;
+            list-style: none;
+            &--link{
             text-transform: uppercase;
-            color: white;
+            color: var(--white-color);
+            text-decoration: none;
+
+            }
     }
 }
 
@@ -28,4 +32,24 @@
     padding-bottom: 36px;
     color: white;
     font-size: 0.875rem;
+
+    span{
+        color: var(--brand-color);
+    }
+}
+
+@media (min-width:768px){
+
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 56px 69px 34px 95px;
+    }
+    .copy{
+        order: -1;
+    }
+    .footer_nav{
+        text-decoration: none;
+    }
+
 }
