@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
 
-        &_menu{
+        &__menu{
         width: 50px;
         height: 38px;
         padding: 14px;
@@ -18,7 +18,7 @@
         left: 0;
     }
 
-        &_hero{
+        &__hero{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -26,14 +26,14 @@
         transform: translateY(208px);
         text-align: center;
 
-            &-title{
+            &--title{
             font-family: var(--text-title);
             text-transform: uppercase;
             font-size: 1.875em;
             color: var(--white-color);
             line-height: 50px;
         }
-            &-text{
+            &--text{
             font-family: var(--text-p);
             color: var(--white-color);
             font-size: 1rem;
@@ -52,15 +52,15 @@
 
 @media (min-width:768px){
 
-    .header_hero{
-        &-title {
+    .header__hero{
+        &--title {
         font-size: 4.688rem;
         line-height: 100px;
-    }
-        &-text {
+        }
+        &--text {
         font-size: 1.5rem;
+        }
     }
-}
     .scroll-down{
         width: 43px;
         height: 45px;
@@ -69,7 +69,7 @@
 
 @media (min-width:1200px){
 
-    .header_title{
+    .header__title{
         font-size: 6.25rem;
         line-height: 132px;
     }

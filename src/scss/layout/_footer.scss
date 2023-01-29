@@ -8,16 +8,17 @@
     padding-top: 65px;
     line-height: 1.80;
 
-        &_list{
-            font-size: 1rem;
-            line-height: 1.88;
-            list-style: none;
-            &--link{
-            text-transform: uppercase;
-            color: var(--white-color);
-            text-decoration: none;
+        &__list{
+        font-size: 1rem;
+        line-height: 1.88;
+        list-style: none;
 
-            }
+        &--link{
+        text-transform: uppercase;
+        color: var(--white-color);
+        text-decoration: none;
+
+        }
     }
 }
 

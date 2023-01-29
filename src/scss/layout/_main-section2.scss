@@ -8,24 +8,24 @@
     gap: 40px;
     padding: 30px 50px 40px 50px;
 
-    &_title{
+        &__title{
         font-family: var(--text-title);
         font-size: 1.25rem;
         line-height: 1.5;
     }
 
-        &_subtitle{
-            font-family: var(--text-title);
-            font-size: 1.125rem;
+        &__subtitle{
+        font-family: var(--text-title);
+        font-size: 1.125rem;
         }
 
-        &_text{
-            font-family: var(--text-p);
-            font-size: 1.125rem;
-            line-height: 1.67;
+        &__text{
+        font-family: var(--text-p);
+        font-size: 1.125rem;
+        line-height: 1.67;
         }
 
-    &_buttom{
+        &__buttom{
         width: 200px;
         height: 50px;
         background-color: var(--brand-color);
@@ -78,7 +78,7 @@
     position: relative;
     animation: wiggle 3s linear infinite;
 
-    &_buttom{
+        &__buttom{
         width: 45px;
         height: 45px;
         background-color: var(--white-color);
@@ -88,7 +88,7 @@
         justify-content: center;
     }
 
-    &_img{
+        &__img{
         width: 25px;
         }
     }
@@ -98,23 +98,23 @@
 @media (min-width:768px){
 
     .section2{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 25px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 25px;
 
-        &_title{
+        &__title{
         font-size: 1.75rem;
         line-height: 45px;
         grid-column: span 3;
     }
-        &_subtitle{
+        &__subtitle{
         font-size: 1.5rem;
     }
-        &_text{
+        &__text{
         font-size: 1.25rem;
     }
 }
-    .div_buttom-section2{
+    .div__buttom--section2{
         grid-column: span 3;
         }
 }

@@ -4,29 +4,29 @@
     grid-template-rows: 23px 45px 95px;
     padding: 34px 12px 2px 13px;
 
-        &_subtitle{
+        &__subtitle{
         color: var(--brand-color);
         font-family: var(--text-p);
         font-size: 0.875rem;
         padding: 0 0 0 13px;
-        }
+    }
 
-        &_title{
+        &__title{
         font-family: var(--text-title);
         font-size: 1.6rem;
         text-transform: capitalize;
         padding: 0 12px 0 13px;
     }
 
-        &_text{
+        &__text{
         font-family: var(--text-p);
         color: var(--grey-brown);
         font-size: 1.125rem;
         line-height: 1.67;
         padding: 0 12px 0 16px;
-        }
+    }
 
-        &_buttom{
+        &__buttom{
         width: 160px;
         height: 50px;
         background-color: var(--white-color);
@@ -50,23 +50,28 @@
 
     .section1{
         gap: 18px;
-    }
-    .section1_subtitle{
+
+        &__subtitle{
         font-size: 1rem;
         line-height: 1.88;
         padding-left: 37px;
-    }
-    .section1_title{
+        }
+
+        &__title{
         font-size: 2rem;
         padding-left: 37px;
-    }
-    .section1_text{
+        }
+
+        &__text{
         font-size: 1.25rem;
         padding-left: 37px;
-    }
-    .section1_buttom{
+        }
+
+        &__buttom{
         margin: 0 0 51px 39px;
+        }
     }
+
 }
 
 @media (min-width:1200px){
