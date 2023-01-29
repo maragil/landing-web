@@ -9,7 +9,7 @@
 .section1{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 23px 45px 158px;
+    grid-template-rows: 23px 45px 95px;
     padding: 34px 12px 2px 13px;
 
     &_subtitle{
@@ -70,5 +70,14 @@
     }
     .section1_buttom{
         margin: 0 0 51px 39px;
+    }
+}
+
+@media (min-width:1200px){
+    .section1{
+        padding-left: 275px;
+    }
+    .div_buttom{
+        padding-left: 275px;
     }
 }

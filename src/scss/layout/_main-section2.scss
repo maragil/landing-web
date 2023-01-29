@@ -13,6 +13,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     text-align: center;
+    align-items: center;
     gap: 40px;
     padding: 30px 50px 40px 50px;
 
@@ -74,7 +75,6 @@
 
     .section2{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 100px;
         gap: 25px;
     }
 
