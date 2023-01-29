@@ -1,30 +1,23 @@
-:root{
-    --text-title: 'Roboto Slab', serif;
-    --text-p: 'Roboto', sans-serif;
-    --brand-color: #f26002;
-    --white-color: white;
-}
-
 .header{
     width: 100vw;
     height: 100vh;
     background-image: url("../images/cover.jpeg");
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
 
-.header_menu{
-    width: 50px;
-    height: 38px;
-    padding: 14px;
-    background-color: var(--brand-color);
-    position: sticky;
-    top: 0;
-    z-index: 1;
+        &_menu{
+        width: 50px;
+        height: 38px;
+        padding: 14px;
+        background-color: var(--brand-color);
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 
-.header_hero{
+        &_hero{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -32,21 +25,22 @@
         transform: translateY(208px);
         text-align: center;
         padding-right: 40px;
-}
-.header_title{
+
+            &-title{
             font-family: var(--text-title);
             text-transform: uppercase;
             font-size: 1.875em;
             color: var(--white-color);
             line-height: 50px;
         }
-
-.header_text{
+            &-text{
             font-family: var(--text-p);
             color: var(--white-color);
             font-size: 1rem;
             padding: 0 16px 16px;
         }
+    }
+}
 
 .scroll-down{
     width: 43px;
@@ -59,17 +53,14 @@
 @media (min-width:768px){
 
     .header_hero{
-        padding-bottom: 70px;
-    }
-
-    .header_title {
+        &-title {
         font-size: 4.688rem;
         line-height: 100px;
     }
-
-    .header_text {
+        &-text {
         font-size: 1.5rem;
     }
+}
     .scroll-down{
         width: 43px;
         height: 45px;
