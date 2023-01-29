@@ -1,10 +1,10 @@
-#Módulo 1: Ejercicio de evaluación final.
+# Módulo 1: Ejercicio de evaluación final.
 
-##Descripción del proyecto.
+## Descripción del proyecto.
 
 El proyecto consiste en desarrollar una página web de acuerdo a un diseño proporcionado por Adalab.
 
-##Requerimientos.
+## Requerimientos.
 
 En la realización del proyecto se incluye la consecución de varios puntos:
 
@@ -20,7 +20,8 @@ La **fecha límite** de entrega es el 30 de enero a las 14:00.
 
 Para que el proyecto se considere terminado debe estar publicado en GitHub Pages y funcionando.
 
-##Realización.
+## Realización.
+
 Los puntos más imortantes de la realización han sido:
 
 - Estructura de ficheros del AWSK (Adalab Web Starter Kit).
@@ -30,7 +31,8 @@ Los puntos más imortantes de la realización han sido:
 - Realización de _commits_ en GitHub.
 - Publicación en GitHub Pages.
 
-##Herrramientas.
+## Herrramientas.
+
 Las herramientas empleadas para llevar a cabo este proyecto han sido:
 
 - `HTML`, `CSS/Scss`.
@@ -38,7 +40,7 @@ Las herramientas empleadas para llevar a cabo este proyecto han sido:
 - `Package.json`.
 - `GitHub` y `GitHub Pages`.
 
-##Material aportado:
+## Material aportado:
 
 El código se encuentra en la rama principal de este repositorio y se expone la rama `gh_pages` en `GitHub Pages`:
 <http://beta.adalab.es/project-promo-s-module-1-team-3/>
