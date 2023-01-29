@@ -66,16 +66,17 @@
 
     .section2{
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
-        
+
         &_title{
         font-size: 1.75rem;
         line-height: 45px;
         grid-column: span 3;
-    } 
+    }
         &_subtitle{
         font-size: 1.5rem;
-    } 
+    }
         &_text{
         font-size: 1.25rem;
     }
@@ -83,5 +84,5 @@
     .div_buttom-section2{
         grid-column: span 3;
         }
- }
+}
 
