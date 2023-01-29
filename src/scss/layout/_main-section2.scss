@@ -37,6 +37,12 @@
         line-height: 2.25;
         border-radius: 25px;
         margin: auto;
+        &:hover{
+            background-color: var(--white-color);
+            color: var(--brand-color);
+            transition: all 0.4s ease-in-out;
+            transform: scale(1.2, 1.2);
+        }
     }
 }
 
@@ -58,6 +64,11 @@
 
     &_img{
         width: 25px;
+        &:hover{
+            animation-name: rotate;
+            animation-duration: 0.7s;
+            animation-direction: reverse;
+        }
     }
 }
 
