@@ -6,7 +6,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 
         &__menu{
         width: 50px;
@@ -23,7 +23,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: translateY(208px);
+        padding-bottom: 45px;
         text-align: center;
 
             &--title{
@@ -58,6 +58,7 @@
         &--title {
         font-size: 4.688rem;
         line-height: 100px;
+        padding-bottom: 50px;
         max-width: 750px;
         }
         &--text {
@@ -71,11 +72,17 @@
 }
 
 @media (min-width:1200px){
+    .header__hero{
+        padding-bottom: 60px;
+    }
 
     .header__hero--title{
         font-size: 6.25rem;
         line-height: 132px;
         max-width: 1521px;
     }
+    // .scroll-down{
+    //     margin-bottom: 50px;
+    // }
 }
 
