@@ -1,5 +1,5 @@
 .section2{
-    background-color: var(--ligth-grey);
+    background-color: $ligth-grey;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -9,18 +9,18 @@
     padding: 30px 50px 40px 50px;
 
         &__title{
-        font-family: var(--text-title);
+        font-family: $text-title;
         font-size: 1.25rem;
         line-height: 1.5;
     }
 
         &__subtitle{
-        font-family: var(--text-title);
+        font-family: $text-title;
         font-size: 1.125rem;
         }
 
         &__text{
-        font-family: var(--text-p);
+        font-family: $text-p;
         font-size: 1.125rem;
         line-height: 1.67;
         }
@@ -28,18 +28,19 @@
         &__buttom{
         width: 200px;
         height: 50px;
-        background-color: var(--brand-color);
-        border: solid 3px var(--brand-color);
-        font-family: var(--text-p);
-        color: var(--white-color);
+        background-color: $brand-color;
+        border: solid 3px $brand-color;
+        font-family: $text-p;
+        color: $white-color;
         font-size: 1.25rem;
         font-weight: 500;
         line-height: 2.25;
         border-radius: 25px;
         margin: auto;
+        text-decoration: none;
         &:hover{
-            background-color: var(--white-color);
-            color: var(--brand-color);
+            background-color: $white-color;
+            color: $brand-color;
             transition: all 0.4s ease-in-out;
             transform: scale(1.2, 1.2);
         }
@@ -81,7 +82,7 @@
         &__buttom{
         width: 45px;
         height: 45px;
-        background-color: var(--white-color);
+        background-color: $white-color;
         border-radius: 25px;
         position: absolute;
         display: flex;

@@ -1,6 +1,6 @@
 .footer{
-    background-color: var(--grey-brown);
-    font-family: var(--text-p);
+    background-color: $grey-brown;
+    font-family: $text-p;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 
         &--link{
         text-transform: uppercase;
-        color: var(--white-color);
+        color: $white-color;
         text-decoration: none;
 
         }
@@ -28,7 +28,7 @@
     font-size: 0.875rem;
 
     span{
-        color: var(--brand-color);
+        color: $brand-color;
     }
 }
 

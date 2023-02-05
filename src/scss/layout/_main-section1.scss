@@ -5,22 +5,22 @@
     padding: 34px 12px 2px 13px;
 
         &__subtitle{
-        color: var(--brand-color);
-        font-family: var(--text-p);
+        color: $brand-color;
+        font-family: $text-p;
         font-size: 0.875rem;
         padding: 0 0 0 13px;
     }
 
         &__title{
-        font-family: var(--text-title);
+        font-family: $text-title;
         font-size: 1.6rem;
         text-transform: capitalize;
         padding: 0 12px 0 13px;
     }
 
         &__text{
-        font-family: var(--text-p);
-        color: var(--grey-brown);
+        font-family: $text-p;
+        color: $grey-brown;
         font-size: 1.125rem;
         line-height: 1.67;
         padding: 0 12px 0 16px;
@@ -29,17 +29,20 @@
         &__buttom{
         width: 160px;
         height: 50px;
-        background-color: var(--white-color);
+        background-color: $white-color;
         border-radius: 35.5px;
-        border: solid var(--brand-color);
-        color: var(--brand-color);
-        font-family: var(--text-p);
+        border: solid $brand-color;
+        color: $brand-color;
+        font-family: $text-p;
         font-size: 1.25rem;
         font-weight: 500;
-        margin: 93px 0 41px 16px;
+        margin: 125px 0 41px 16px;
+        text-decoration: none;
+        line-height: 45px;
+        text-align: center;
         &:hover{
-            background-color: var(--brand-color);
-            color: var(--white-color);
+            background-color: $brand-color;
+            color: $white-color;
             transition: all 0.4s ease-in-out;
             transform: scale(1.2, 1.2);
         }

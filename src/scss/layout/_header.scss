@@ -12,7 +12,7 @@
         width: 50px;
         height: 38px;
         padding: 14px;
-        background-color: var(--brand-color);
+        background-color: $brand-color;
         position: fixed;
         top: 0;
         left: 0;
@@ -27,17 +27,17 @@
         text-align: center;
 
             &--title{
-            font-family: var(--text-title);
+            font-family: $text-title;
             text-transform: uppercase;
             font-size: 1.875em;
-            color: var(--white-color);
+            color: $white-color;
             line-height: 50px;
             text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
             max-width: 456px;
         }
             &--text{
-            font-family: var(--text-p);
-            color: var(--white-color);
+            font-family: $text-p;
+            color: $white-color;
             font-size: 1rem;
             padding: 0 16px 16px;
         }
@@ -47,7 +47,7 @@
 .scroll-down{
     width: 43px;
     height: 40px;
-    background-color: var(--white-color);
+    background-color: $white-color;
     padding: 9px;
     border-radius: 25px;
 }
@@ -81,8 +81,5 @@
         line-height: 132px;
         max-width: 1521px;
     }
-    // .scroll-down{
-    //     margin-bottom: 50px;
-    // }
 }
 
